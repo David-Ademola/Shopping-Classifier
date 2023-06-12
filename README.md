@@ -11,13 +11,14 @@ The Shopping Classifier is a Python script that uses the k-nearest neighbors alg
 
 1. Clone the repository or download the script file (`shopping.py`).
 2. Install the required dependencies by running the following command:
-- pip install -U scikit-learn
+- `pip install -U scikit-learn`
 3. Prepare your data in a CSV file, making sure it follows the required format. The file should contain both the features (evidence) and the corresponding labels.
 
 **Note:** The script expects the last column in the CSV file to be the label column.
 
 4. Run the script using the following command:
-- python shopping.py <data_file.csv>
+- `python shopping.py <data_file.csv>`
+
 Replace `<data_file.csv>` with the path to your CSV file.
 
 ## Functionality
